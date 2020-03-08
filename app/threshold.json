@@ -1,0 +1,80 @@
+[
+  {
+    "gender": "boys",
+    "minAge": 10,
+    "maxAge": 12,
+    "bodyWeight": 34.3,
+    "netEnergy": 2190,
+    "protein": 39.9,
+    "visibleFat": 35,
+    "calcium": 800,
+    "iron": 21,
+    "zinc": 9,
+    "mangnesium": 120
+  },
+  {
+    "gender": "girls",
+    "minAge": 10,
+    "maxAge": 12,
+    "bodyWeight": 35,
+    "netEnergy": 201,
+    "protein": 40.4,
+    "visibleFat": 35,
+    "calcium": 800,
+    "iron": 27,
+    "zinc": 9,
+    "mangnesium": 160
+  },
+  {
+    "gender": "boys",
+    "minAge": 13,
+    "maxAge": 15,
+    "bodyWeight": 47.6,
+    "netEnergy": 2750,
+    "protein": 54.3,
+    "visibleFat": 45,
+    "calcium": 800,
+    "iron": 32,
+    "zinc": 11,
+    "mangnesium": 165
+  },
+  {
+    "gender": "girls",
+    "minAge": 13,
+    "maxAge": 15,
+    "bodyWeight": 46.6,
+    "netEnergy": 2330,
+    "protein": 51.9,
+    "visibleFat": 40,
+    "calcium": 800,
+    "iron": 27,
+    "zinc": 11,
+    "mangnesium": 210
+  },
+  {
+    "gender": "boys",
+    "minAge": 16,
+    "maxAge": 17,
+    "bodyWeight": 55.4,
+    "netEnergy": 3020,
+    "protein": 61.5,
+    "visibleFat": 50,
+    "calcium": 800,
+    "iron": 28,
+    "zinc": 12,
+    "mangnesium": 195
+  },
+  {
+    "gender": "girls",
+    "minAge": 16,
+    "maxAge": 17,
+    "bodyWeight": 52.1,
+    "netEnergy": 2440,
+    "protein": "55•5",
+    "visibleFat": 35,
+    "calcium": 800,
+    "iron": 26,
+    "zinc": 12,
+    "mangnesium": 235
+  }
+]
