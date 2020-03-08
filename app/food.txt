@@ -1,0 +1,9 @@
+Food items, Calories, Protein, Visible fat, Calcium, Iron ,Zinc, Magnesium 
+Rajma Rice, 140, 5.7,5.9,6.9,17.8,9.3,8.2 
+Chicken ,239,24,13.4,1,7,0,5
+Rice ,111,2.7,0,1,1,0,3
+Dosa and Sambar 363,8,8.3,37.1,0.9,0.4,38.4
+Pizza 266,22,10,18,13,0,6
+Burger 295,17,21,10,16,0,5
+Chocolate 546,4.9,31,5,44,0,36
+Panner 79.9,28.4,14.2,23,0.1,0.9,21.8

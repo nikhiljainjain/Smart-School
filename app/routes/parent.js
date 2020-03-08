@@ -47,8 +47,15 @@ router.post('/login', (req, res, next)=>{
 //cookies checking
 router.use(parentValid);
 
+//
 router.get('/dashboard', (req, res, next)=>{
-	res.json(validRes);
+	validRes.data.personal = req.data;
+	Bought.find({student: req.data._id}).populate("item").exec((err, data)=>{
+		if (err) throw err;
+		validRes.data.bought = data;
+		console.log(validRes);
+		res.json(validRes);
+	});
 });
 
 module.exports = router;

@@ -46,8 +46,8 @@ router.get('/dashboard', (req, res, next)=>{
 	Item.find({}, (err, data)=>{
 		if (err) console.error.bind(err);
 		if (data){
-			validRes.data.items = data;
-			validRes.data.restrict = req.data.restItem;
+			validRes.items = data;
+			validRes.restrict = req.data.restItem;
 			console.log(validRes);
 			res.json(validRes);
 		}else
