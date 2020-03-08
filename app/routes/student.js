@@ -31,7 +31,7 @@ router.post('/login', (req, res, next)=>{
 				maxAge: COOKIES_AGE,
 				path: '/'
 			}));
-			res.status(302).redirect("/student/dashboard");
+			res.json(validRes);//status(302).redirect("/student/dashboard");
 		}else{
 			res.json(response);
 		}
