@@ -1,0 +1,44 @@
+{
+  carbohydrates: {
+    "nutrient": "Carbohydrates",
+    "essential": "Carbohydrates are the main source of energy for school-age children.",
+    "suggest": "carbohydrate sources such as whole grains, milk products, fruits, vegetables and legumes more so than refined grains and added sugars will help increase the nutrition of your childs diet."
+  },
+	
+  protein: {
+    "nutrient": "Protein",
+    "essential": "Protein is important for growth for your childs age-group, strength and muscle maintenance in school-age children.",
+    "suggest": "High-protein foods such as Chicken,eggs,Dairy Products,Panner"
+  },
+	
+  visibleFat: {
+    "nutrient": "Visible Fat",
+    "essential": "Fats are important for your child’s cognitive development.",
+    "suggest": "Foods high in omega-3 fatty acids include purified fish oils, canola oil, walnut oil, walnuts, soybeans, soybean oil, algal oil, flaxseeds, flaxseed oil and pumpkin seeds."
+  },
+	
+  calcium: {
+    "nutrient": "Calcium",
+    "essential": "Calcium plays an important role in muscle contraction, transmitting messages through the nerves, and the release of hormones.",
+    "suggest": "Green vegetables,Dairy Products,are good sources."
+  },
+	
+  iron: {
+    "nutrient": "Iron",
+    "essential": "Iron helps to preserve many vital functions in the body,including general energy and focus,gastrointestinal processes, the immune system,and the regulation of body temperature.",
+    "suggest": "iron source is iron-fortified grains and meats."
+  },
+	
+  zinc: {
+    "nutrient": "Zinc",
+    "essential": "The mineral zinc is essential for growth and development, immune function, neurological function",
+    "suggest": "Good sources of zincinclude whole grains, tofu, tempeh, legumes, nuts and seeds, fortified breakfast cereals and dairy products."
+  },
+	
+  magnesium: {
+    "nutrient": "Magnesium",
+    "essential": "Magnesium helps to maintain normal nerve and muscle function, supports a healthy immune system, keeps the heartbeat steady, and helps bones remain strong.",
+    "suggest": "Good sources of Magnesium are Green leafy vegetables ,Fruit,fish ,Nuts and seeds."
+  }
+
+}

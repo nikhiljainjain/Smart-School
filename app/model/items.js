@@ -21,7 +21,7 @@ let item = new mongoose.Schema({
 		//zinc
 		zinc: { type: Number, default: 100},
 		//mangnesium
-		mangnesium: { type: Number, default: 100},
+		magnesium: { type: Number, default: 100},
 	},
 	//item category Food / Stationary
 	category: { type: String, default: "Food"},

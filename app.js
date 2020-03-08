@@ -3,6 +3,7 @@ let express = require('express');
 let path = require('path');
 let cookieParser = require('cookie-parser');
 let logger = require('morgan');
+let Cors = require("cors");
 
 let indexRouter = require('./app/routes/index');
 let studentRouter = require('./app/routes/student');
@@ -25,6 +26,7 @@ app.set('view engine', 'ejs');
 app.disable('etag');
 app.disable('x-powered-by');
 
+app.use(cors());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
