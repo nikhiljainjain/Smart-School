@@ -21,10 +21,12 @@ router.get('/', function(req, res, next) {
 
 //student login
 router.post('/login', (req, res, next)=>{
-	const { regno } = ((req.body.regno).trim()).toUpperCase();
+	console.log(req.body.regno);
+	const regno = (req.body.regno).toUpperCase();
 	Student.findOne({ regno }, (err, data)=>{
 		if (err) console.error.bind(err);
 		if (data){
+			console.log(data);
 			res.setHeader('Set-Cookie', cookie.serialize('regno', String(regno), {
 				maxAge: COOKIES_AGE,
 				path: '/'

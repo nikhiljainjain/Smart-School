@@ -4,7 +4,7 @@ let cookie = require("cookie");
 const studentValid = (req, res, next) =>{
     let regno = cookie.parse(req.headers.cookie || '');
 	if (regno != null){
-		regno = session.regno;
+		regno = regno.regno;
 		User.findOne({regno}, (err, data)=>{
 			if (err) throw console.error.bind(err);
 			if (data){
@@ -22,7 +22,7 @@ const studentValid = (req, res, next) =>{
 const parentValid = (req, res, next) =>{
     let regno = cookie.parse(req.headers.cookie || '');
 	if (regno != null){
-		regno = session.regno;
+		regno = regno.regno;
 		User.findOne({regno}, (err, data)=>{
 			if (err) throw console.error.bind(err);
 			if (data){
