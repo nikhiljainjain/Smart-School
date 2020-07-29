@@ -9,7 +9,7 @@ let item = new mongoose.Schema({
 	unit: { type: String, default: "Bowl" },
 	//nutrients
 	nutrients: {
-		net_energy: { type: Number, default: 201},
+		calories: { type: Number, default: 201},
 		//carbohydrates and fats
 		fats: { type: Number, default: 100 },
 		//proten
